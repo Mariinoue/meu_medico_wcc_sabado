@@ -11,6 +11,7 @@ const createDoctor = async (req, res) => {
     }
 }
 
+//listar medicos
 const getDoctor = async (req, res) => {
     const doctorId = req.params.id
     try {
